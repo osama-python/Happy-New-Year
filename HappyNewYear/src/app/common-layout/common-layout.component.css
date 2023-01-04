@@ -1,0 +1,54 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:coral;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+  }
+
+  .toolbar #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo:hover,
+  .toolbar #youtube-logo:hover {
+    opacity: 0.8;
+  }
+
+  #idLinkedInIcon{background-color:rgb(0, 102, 170);
+    border-radius:6px;
+    padding:auto;
+    color:white;
+    cursor:pointer;
+    display:inline-block;
+    font:bold 20px Arial, Helvetica, sans-serif;
+    height:25px;margin-top:1px;
+    text-align:center;
+    width:25px;}
+  #idLinkedInIcon:hover{background-color:#06d;}
+  #LinkedInMar{background-color: coral;
+  width: 56px;
+  height: 25px;
+  padding-right: 14mm;
+  padding-left: 6mm;}
+
+  .spacer {
+    flex: 1;
+  }
+
+

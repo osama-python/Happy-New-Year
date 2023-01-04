@@ -1,0 +1,73 @@
+.gif {  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    
+}
+
+.text-box {
+  font-size: 60px;
+  font-family: 'Special Elite';
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+span {
+  animation: mover 6s linear infinite;
+  display: inline-block;
+  color: #fff;
+  font-weight: bolder;
+}
+@keyframes mover {
+  0% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  }
+
+  50% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+    transform: translateY(60px);
+  }
+
+  100% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+span:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+
+
+
+
+.typewriter {
+  font-size: 25px;
+  font-family: 'Special Elite';
+  position: absolute;
+  bottom: 25%;
+  left: 37%;
+  transform: translate(-25%,-50%);
+}
+
+span:nth-child(3) {
+  animation-delay: 0s;
+}
+
+
+.typewriter1 {
+  font-size: 25px;
+  font-family: 'Special Elite';
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-25%,-50%);
+}
+span:nth-child(4) {
+  animation-delay: 0s;
+}

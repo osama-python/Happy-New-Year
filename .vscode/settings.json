@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1ea734a8-10dc-4cdb-9396-0b14c1b2d775/AppServices/subscriptions/1ea734a8-10dc-4cdb-9396-0b14c1b2d775/resourceGroups/Osama_HappyNewYear/providers/Microsoft.Web/sites/HappyNewYearOsama",
+    "appService.deploySubpath": "HappyNewYear\\dist\\happy-new-year"
+}
